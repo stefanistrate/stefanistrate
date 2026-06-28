@@ -33,12 +33,11 @@ jobs:
           config_timezone: Europe/Lisbon
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_ignored: verified, explorer, automator, infographile
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           plugin_followup: yes
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories, user
+          plugin_followup_sections: repositories
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -46,7 +45,7 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_categories: programming
           plugin_languages_colors: github
-          plugin_languages_ignored: css, html, ipynb, javascript, php
+          plugin_languages_ignored: css, html, jupyter notebook, php, scss
           plugin_languages_indepth: no
           plugin_languages_limit: 8
           plugin_languages_other: no
